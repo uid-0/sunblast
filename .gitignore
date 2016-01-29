@@ -1,0 +1,7 @@
+srvdir/
+*.swp
+node_modules/*
+index.html
+doc/*
+build/*
+dist/*

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Sunblast
+</title>
+<meta charset="utf-8">
+<!-- build:css sunblast.min.css -->
+<link rel="stylesheet" href="css/basic.css">
+<!-- endbuild -->
+</head>
+<body>
+<div id="passage" ng-controller="PassageCtrl">
+  <passage pid="{{id}}"></passage>
+</div>
+
+//= include data/passages.html
+
+<script ng-controller="UserScriptsCtrl" ng-repeat="script in scripts">
+console.log("Loaded a user script");
+</script>
+
+<!-- build:js sunblast.min.js -->
+<script src="lib/angular.js"></script>
+<script src="lib/jquery.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/marked.js"></script>
+<script src="lib/lz-string.js"></script>
+
+<script src="js/passage.js"></script>
+
+<script src="js/sunblast.js"></script>
+<script src="js/factories/storyData.js"></script>
+<script src="js/directives/passage.js"></script>
+<script src="js/controllers/passageCtrl.js"></script>
+<script src="js/init.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>

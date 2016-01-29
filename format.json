@@ -1,0 +1,10 @@
+{
+	"name": "Sunblast",
+	"version": "0.1.0",
+	"description": "An opinionated engine. For special purposes ^_^",
+	"author": "Concerned Usurper",
+	"image": "icon.svg",
+	"url": "http://4chan.org/d/",
+	"license": "MIT", 
+	"proofing": false
+}
